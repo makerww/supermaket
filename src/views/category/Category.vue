@@ -1,15 +1,24 @@
 <template>
   <div class="category">
-   我是分类 你哈哎i啊
+    <nav-bar>
+      <template v-slot:center>
+        <input type="text" />
+      </template>
+      <template v-slot:right>
+        <button>登录</button>
+      </template>
+    </nav-bar>
+
+    分类界面
   </div>
 </template>
 
 <script>
-
+import NavBar from "components/common/navBar/NavBar";
 export default {
-  name: 'Category',
+  name: "Category",
   components: {
-  
+    NavBar
   }
-}
+};
 </script>

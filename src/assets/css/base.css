@@ -1,11 +1,14 @@
 @import "./normalize.css";
 
 :root {
+    /* 默认背景颜色 */
+    --color-background: #fff;
+
     --color-text: #666;
-    --color-high-text: #ff5777;
-    --corlor-background: #fff;
+    --color-high-text: #f7260d;
     --font-size: 14px;
     --line-height: 1.5;
+
 }
 
 body {
