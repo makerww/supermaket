@@ -1,8 +1,8 @@
 <template>
   <div class="profile">
-   <nav-bar back-color="var(--color-high-text)">
+    <nav-bar back-color="var(--color-high-text)">
       <template v-slot:center>
-      我的
+        我的
       </template>
     </nav-bar>
   </div>
@@ -11,9 +11,9 @@
 <script>
 import NavBar from "components/common/navBar/NavBar";
 export default {
-  name: 'Profile',
+  name: "Profile",
   components: {
-  NavBar
+    NavBar
   }
-}
+};
 </script>
